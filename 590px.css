@@ -1,0 +1,30 @@
+@media (max-width: 590px) {
+  header {
+    height: 65px;
+  }
+  header img {
+    height: 20px;
+    width: 103px;
+  }
+
+  nav ul {
+    width: 62%;
+    font-size: 10px;
+  }
+
+  nav ul li{
+    height: 65px;
+  }
+
+  nav .callus {
+    width: 27%;
+  }
+
+  nav .callus i {
+    font-size: 25px;
+  }
+
+  nav .callus p {
+    font-size: 10px;
+  }
+}

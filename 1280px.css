@@ -1,0 +1,9 @@
+@media (max-width: 1280px) {
+  nav .callus {
+    width: 21%;
+  }
+
+  nav .callus i {
+    font-size: 40px;
+  }
+}

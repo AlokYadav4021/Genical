@@ -1,0 +1,34 @@
+@media (max-width: 450px) {
+  header {
+    height: 45px;
+  }
+  header img {
+    height: 15px;
+        width: 70px;
+  }
+
+  nav{
+    height: 45px;
+  }
+
+  nav ul {
+    width: 63%;
+    font-size: 7px;
+  }
+
+  nav ul li {
+    height: 45px;
+  }
+
+  nav .callus {
+    width: 30%;
+  }
+
+  nav .callus i {
+    font-size: 20px;
+  }
+
+  nav .callus p {
+    font-size: 8px;
+  }
+}
