@@ -1,105 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-header{
-    height: 90px;
-    width: 100%;
-    background-color: #2a4359;
-     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #2a4359;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-header img{
-    height: 65px;
-    width: 210px;
-    object-fit: cover;
+header img {
+  height: 65px;
+  width: 210px;
+  object-fit: cover;
 }
 
-nav{
-    height: 90px;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-
+nav {
+  height: 90px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
-nav > ul{
-    height: 90px;
-    width: 70%;
-     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-nav > ul > li{
-    list-style: none;
-    width: 20%;
-    height: 90px;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-     transition: color 0.3s linear;
-
+nav > ul {
+  height: 90px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-
-
-.dropdown{
-    width: 100%;
-    height: auto;
-   display: none;
-    background-color:#253a4d;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    margin: 0 4px 0 4px;
-    transition: all .5s linear;
+nav > ul > li {
+  list-style: none;
+  width: 20%;
+  height: 90px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: color 0.3s linear;
 }
 
-nav > ul > li:hover .dropdown{
-    display:block ;
+.dropdown {
+  width: 100%;
+  height: auto;
+  display: none;
+  background-color: #253a4d;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  margin: 0 4px 0 4px;
+  transition: all 0.5s linear;
+}
+
+nav > ul > li:hover .dropdown {
+  display: block;
 }
 
 .dropdown > li {
-    height: 30px;
-    text-align: center;
-    list-style: none;
-     transition: color 0.3s linear;
+  height: 30px;
+  text-align: center;
+  list-style: none;
+  transition: color 0.3s linear;
 }
 
-.dropdown > li:hover a{
-    color: #d9a441;
-
+.dropdown > li:hover a {
+  color: #d9a441;
 }
-nav > ul > li:hover > a{
-    color: #d9a441;
-
+nav > ul > li:hover > a {
+  color: #d9a441;
 }
 
-nav ul > li > a{
-    color: white;
-    text-decoration: none;
+nav ul > li > a {
+  color: white;
+  text-decoration: none;
 }
 
-nav .callus{
-    width: 18%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+nav .callus {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav .callus i{
-    font-size: 50px;
+nav .callus i {
+  font-size: 50px;
 }
-   
+
+main {
+  height: 3000px;
+  width: 100%;
+}
+
+/*from here Hero section started */
+.hero {
+  height: 560px;
+  width: 100%;
+  background-image: linear-gradient(#2a43598a, #2a43598a), url(./mental.avif);
+  background-size: 100% 560px;
+  object-fit: cover;
+  animation-name: img-slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+/* Here this code is for image slider by using only css */
+
+@keyframes img-slider {
+  0% {
+  background-image: linear-gradient(#2a43598a, #2a43598a), url(./patent.avif);
+
+  }
+  25% {
+  background-image: linear-gradient(#2a43598a, #2a43598a), url(./therpy.avif);
+
+  }
+  50% {
+  background-image: linear-gradient(#2a43598a, #2a43598a), url(./th.jpg);
+
+  }
+  75% {
+  background-image: linear-gradient(#2a43598a, #2a43598a), url(./mental.avif);
+
+  }
+  100% {
+  background-image: linear-gradient(#2a43598a, #2a43598a), url(./family.avif);
+
+  }
+}
