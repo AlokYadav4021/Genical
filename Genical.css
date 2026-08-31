@@ -110,6 +110,9 @@ main {
   animation-name: img-slider;
   animation-duration: 20s;
   animation-iteration-count: infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Here this code is for image slider by using only css */
@@ -135,4 +138,86 @@ main {
   background-image: linear-gradient(#2a43598a, #2a43598a), url(./family.avif);
 
   }
+}
+
+/* Text inside hte Hero Section */
+
+.hero > .hero_text{
+    height: 350px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hero > .hero_text >p:nth-child(1){
+    color: white;
+    font-family: serif;
+    font-size: 27px;
+}
+
+.hero > .hero_text >h1:nth-child(2){
+    color: white;
+    font-size: 4.5em;
+}
+
+.hero > .hero_text >h1:nth-child(2) span{
+    color: #d9a441;
+    
+}
+
+.hero > .hero_text >p:nth-child(3){
+    color: white;
+    width: 67%;
+    font-size: 18px;
+}
+
+.hero_text .hero_buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50px;
+    color: white;
+}
+
+
+.hero_buttons p:nth-child(1){
+    width: 45%;
+    justify-content: center;
+    line-height: 50px;
+    text-align: center;
+    background-color: #d9a441;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #d9a441;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.hero_buttons p:nth-child(1):hover{
+    background-color: transparent;
+}
+
+.hero_buttons p:nth-child(2){
+    width: 45%;
+    justify-content: center;
+    line-height: 50px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #d9a441;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.hero_buttons p:nth-child(2):hover{
+    background-color: #d9a441;
+
 }
