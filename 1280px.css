@@ -6,4 +6,8 @@
   nav .callus i {
     font-size: 40px;
   }
+
+  .hero > .hero_text > h1:nth-child(2) {
+    font-size: 4em;
+  }
 }

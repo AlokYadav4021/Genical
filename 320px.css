@@ -1,0 +1,19 @@
+@media (max-width: 320px) {
+  nav {
+    width: 85%;
+  }
+
+  nav ul {
+    width: 63%;
+    font-size: 5px;
+    height: 45px;
+  }
+
+  nav .callus p {
+    font-size: 7px;
+  }
+
+  .hero > .hero_text {
+    height: 410px;
+  }
+}

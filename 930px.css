@@ -10,4 +10,19 @@
   nav .callus p{
     font-size: 14px;
   }
+
+  .hero > .hero_text{
+    height: 310px;
+}
+  .hero > .hero_text > p:nth-child(3) {
+    width: 75%;
+  }
+
+  .hero_buttons p:nth-child(1){
+    font-size: 14px; 
+}
+  .hero_buttons p:nth-child(2){
+    font-size: 14px; 
+}
+
 }

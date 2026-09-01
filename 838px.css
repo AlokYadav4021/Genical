@@ -30,8 +30,24 @@ nav{
   nav .callus p{
     font-size: 12px;
   }
+  
+  
+  .hero > .hero_text > p:nth-child(1) {
+    font-size: 20px;
+  }
+  
+  .hero > .hero_text > h1:nth-child(2) {
+    font-size: 2.5em;
+  }
 
-  /* .dropdown{
-    top: 85%;
-  } */
+  .hero > .hero_text > p:nth-child(3) {
+    width: 65%;
+  }
+
+   .hero_buttons p:nth-child(1){
+    font-size: 13px; 
+}
+  .hero_buttons p:nth-child(2){
+    font-size: 13px; 
+}
 }

@@ -3,8 +3,24 @@
     width: 21%;
   }
 
-  /* nav .callus i {
-    font-size: 40px;
-  } */
+  .hero > .hero_text > p:nth-child(1) {
+    font-size: 24px;
+  }
+
+  .hero > .hero_text > h1:nth-child(2) {
+    font-size: 3em;
+  }
+
+  .hero > .hero_text > p:nth-child(3) {
+    width: 68%;
+    font-size: 14px;
+  }
+
+  .hero_buttons p:nth-child(1){
+    font-size: 16px; 
 }
-  
+  .hero_buttons p:nth-child(2){
+    font-size: 16px; 
+}
+
+}

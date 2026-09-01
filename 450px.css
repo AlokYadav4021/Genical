@@ -4,10 +4,10 @@
   }
   header img {
     height: 15px;
-        width: 70px;
+    width: 70px;
   }
 
-  nav{
+  nav {
     height: 45px;
   }
 
@@ -30,5 +30,26 @@
 
   nav .callus p {
     font-size: 8px;
+  }
+  .hero > .hero_text {
+    height: 420px;
+    justify-content: space-evenly;
+  }
+
+  .hero > .hero_text > p:nth-child(1) {
+    font-size: 20px;
+  }
+  .hero > .hero_text > h1:nth-child(2) {
+    font-size: 2.5em;
+    width: 85%;
+    text-align: center;
+  }
+
+  .hero_text .hero_buttons {
+    width: 90%;
+    height: 35px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
   }
 }
