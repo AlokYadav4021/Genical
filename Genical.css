@@ -221,3 +221,44 @@ main {
     background-color: #d9a441;
 
 }
+
+
+.firstScroll{
+  height: 150vh;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.firstScroll .threeCards{
+  height: 45vh;
+  width: 100%;
+  /* background-color: blue; */
+  position: absolute;
+  top: -15vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.threeCards > .cardOne:nth-child(1){
+  height: 45vh;
+  width: 30vw;
+  background-color: #d9a441;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.threeCards > .cardTwo:nth-child(2){
+  height: 45vh;
+  width: 30vw;
+  background-color: #2a4359;
+  border-radius: 40px;
+}
+.threeCards > .cardThree:nth-child(3){
+  height: 45vh;
+  width: 30vw;
+  background-color: #2a4359;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
