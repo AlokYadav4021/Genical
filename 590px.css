@@ -57,6 +57,33 @@
   .hero_buttons p:nth-child(2){
     font-size: 9px;
     line-height: 35px;
+  }
 
-}
+ .firstScroll .threeCards {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+   .card img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .card h4 {
+    font-size: 21px;
+  }
+
+  .card p {
+        width: 90%;
+  } 
+
+  .threeCards > .card:nth-child(1),
+  .threeCards > .card:nth-child(2),
+  .threeCards > .card:nth-child(3) {
+    width: 100%;
+    grid-column: 1;
+  }
+
+
 }

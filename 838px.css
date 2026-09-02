@@ -1,12 +1,12 @@
 @media (max-width: 838px) {
-    header{
-        height: 65px;
-    }
-  header img {
-        height: 36px;
-        width: 120px;
+  header {
+    height: 65px;
   }
-nav{
+  header img {
+    height: 36px;
+    width: 120px;
+  }
+  nav {
     height: 65px;
   }
   nav ul {
@@ -19,7 +19,7 @@ nav{
     width: 25%;
   }
 
-  nav ul li{
+  nav ul li {
     height: 65px;
   }
 
@@ -27,15 +27,14 @@ nav{
     font-size: 32px;
   }
 
-  nav .callus p{
+  nav .callus p {
     font-size: 12px;
   }
-  
-  
+
   .hero > .hero_text > p:nth-child(1) {
     font-size: 20px;
   }
-  
+
   .hero > .hero_text > h1:nth-child(2) {
     font-size: 2.5em;
   }
@@ -44,10 +43,61 @@ nav{
     width: 65%;
   }
 
-   .hero_buttons p:nth-child(1){
-    font-size: 13px; 
+  .hero_buttons p:nth-child(1) {
+    font-size: 13px;
+  }
+  .hero_buttons p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  /* .card img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .card h4 {
+    font-size: 21px;
+  }*/
+
+  .card p {
+        width: 33vw;
+  } 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
 }
-  .hero_buttons p:nth-child(2){
-    font-size: 13px; 
+
+.firstScroll .threeCards {
+  width: 100%;
+  position: absolute;
+  top: -15vh;
+
+  display: grid;
+ grid-template-columns: 45vw 45vw;
+  gap: 20px;
+}
+
+.threeCards > .card:nth-child(1){
+  width: 45vw;
+}
+.threeCards > .card:nth-child(2){
+  width: 45vw;
+
+}
+
+.threeCards > .card:nth-child(3) {
+  grid-column: span 2;
+
+  height: 40vh;
+  width: 100%;
+
+  background-color: #2a4359;
+
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 }

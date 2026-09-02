@@ -244,8 +244,9 @@ main {
   /* background-color: blue; */
   position: absolute;
   top: -15vh;
-  display: flex;
-  justify-content: space-around;
+   display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  justify-content: space-evenly;
 }
 
 .threeCards > .card:nth-child(1){
