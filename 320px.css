@@ -13,7 +13,23 @@
     font-size: 7px;
   }
 
+  .hero {
+    height: 95vh;
+    background-size: 100% 95vh;
+  }
   .hero > .hero_text {
     height: 410px;
+  }
+
+  .card img {
+    height: 60px;
+    width: 60px;
+  }
+  .card h4 {
+    font-size: 20px;
+  }
+  .card p {
+    width: 85%;
+    font-size: 16px;
   }
 }

@@ -291,3 +291,12 @@ main {
   text-align: center;
   font-weight: 500;
 }
+
+
+.first_scroll_cont{
+  height: 110vh;
+  width: 100%;
+  background-color: grey;
+  position: absolute;
+  bottom: 0px;
+}

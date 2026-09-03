@@ -52,4 +52,8 @@
     gap: 20px;
     align-items: center;
   }
+
+  .firstScroll .threeCards {
+    top: 0vh;
+  }
 }

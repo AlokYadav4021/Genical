@@ -7,7 +7,7 @@
     width: 103px;
   }
 
-  nav{
+  nav {
     width: 82%;
   }
 
@@ -16,7 +16,7 @@
     font-size: 10px;
   }
 
-  nav ul li{
+  nav ul li {
     height: 65px;
   }
 
@@ -32,40 +32,40 @@
     font-size: 10px;
   }
 
-   .hero > .hero_text{
+  .hero > .hero_text {
     height: 220px;
-}
-
-.hero > .hero_text > p:nth-child(1) {
-            font-size: 18px;
   }
 
+  .hero > .hero_text > p:nth-child(1) {
+    font-size: 18px;
+  }
 
   .hero > .hero_text > p:nth-child(3) {
     width: 70%;
-     font-size: 12px;
+    font-size: 12px;
   }
 
-  .hero_text .hero_buttons{
+  .hero_text .hero_buttons {
     width: 55%;
-        height: 35px;
+    height: 35px;
   }
-  .hero_buttons p:nth-child(1){
-    font-size: 9px; 
+  .hero_buttons p:nth-child(1) {
+    font-size: 9px;
     line-height: 35px;
-}
-  .hero_buttons p:nth-child(2){
+  }
+  .hero_buttons p:nth-child(2) {
     font-size: 9px;
     line-height: 35px;
   }
 
- .firstScroll .threeCards {
-    width: 100%;
-    grid-template-columns: 1fr;
-    gap: 20px;
+  .firstScroll .threeCards {
+            height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-   .card img {
+  .card img {
     height: 70px;
     width: 70px;
   }
@@ -75,15 +75,13 @@
   }
 
   .card p {
-        width: 90%;
-  } 
+    width: 90%;
+  }
 
   .threeCards > .card:nth-child(1),
   .threeCards > .card:nth-child(2),
   .threeCards > .card:nth-child(3) {
-    width: 100%;
-    grid-column: 1;
-  }
-
-
+   width: 90%;
+        height: 34vh;
+    }
 }
