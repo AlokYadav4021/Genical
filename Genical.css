@@ -293,10 +293,128 @@ main {
 }
 
 
-.first_scroll_cont{
-  height: 110vh;
-  width: 100%;
-  background-color: grey;
-  position: absolute;
-  bottom: 0px;
+.first_scroll_cont {
+    height: 110vh;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_scroll_cont .first_cont:nth-child(1){
+  align-items: start;
+  justify-content: space-evenly;
+  margin: 0 0 0 20px;
+ 
+}
+
+.first_cont p:nth-child(1){
+  font-size: 25px;
+    font-family: serif;
+     color: #d9a442;
+  
+}
+.first_cont h2:nth-child(2){
+  font-size: 3em;
+
+}
+.first_cont p:nth-child(3){
+  font-size: 18px;
+
+}
+.first_cont p:nth-child(4){
+  font-size: 18px;
+
+  
+}
+.first_cont .first_cards{
+  display: grid;
+  width: 50vw;
+  height: 30vh;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.first_cards .first_cont_cards{
+  display: flex;
+  width: 20vw;
+  height: 15vh;
+
+}
+
+.first_cards .first_cont_cards i{
+  font-size: 2.5em;
+
+}
+
+.first_cards .first_cont_cards .cont_cards{
+      margin: 0 0 0 4px;
+      width: 15vw;
+      height: 15vh;
+}
+
+.first_cards .first_cont_cards .cont_cards h4:nth-child(1){
+      margin: 0 6px 0 0;
+}
+
+.first_cards .first_cont_cards .cont_cards p:nth-child(2){
+  width: 20vw;
+
+}
+
+
+.first_cont p:nth-child(6){
+  font-size: 23px;
+  position: relative;
+  overflow: hidden;
+  padding: 18px 0 0 28px;; /* add top padding to clear the border-top line */
+  height: 94px;
+  font-family: fangsong;
+
+}
+
+.first_cont p:nth-child(6)::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 47px;
+    height: 94px;
+    border-left: 4px solid #c99a3b;
+    border-top: 1px solid #c99a3b;
+    border-top-left-radius: 50px;
+} 
+
+.first_cont p:nth-child(7){
+  width: 45%;
+    justify-content: center;
+    line-height: 50px;
+    text-align: center;
+    background-color: #d9a441;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #d9a441;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.first_cont p:nth-child(7):hover{
+    background-color: transparent;
+    color: black;
+}
+.first_scroll_cont .first_cont {
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.first_scroll_cont .first_cont img{
+    height: 90vh;
+    width: 90%;
 }
