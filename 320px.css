@@ -32,4 +32,18 @@
     width: 85%;
     font-size: 16px;
   }
+
+  .firstScroll {
+        height: 350vh;
+    }
+
+      .first_scroll_cont .first_cont {
+        height: 146vh;
+    }
+
+    .first_cont p:nth-child(6) {
+    font-size: 14px;}
+
+    .first_cont p:nth-child(6)::before {
+    height: 75px;}
 }

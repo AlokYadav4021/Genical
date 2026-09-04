@@ -379,6 +379,7 @@ main {
   font-size: 18px;
   font-weight: 400;
   color: white;
+  margin: 20px 0 0 0;
 }
 
 .first_cont p:nth-child(7):hover {
@@ -402,7 +403,7 @@ main {
   height: 90vh;
   width: 90%;
   background-color: #2a4359;
-  position: relative;
+  position: absolute;
   top: 45px;
   right: 45px;
   border-bottom-left-radius: 40px;

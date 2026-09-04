@@ -56,4 +56,65 @@
   .firstScroll .threeCards {
     top: 0vh;
   }
+
+  .firstScroll {
+    height: 340vh;
+  }
+
+  .front {
+    height: 23vh;
+    width: 37vw;
+    bottom: 5vh;
+  }
+
+  .first_scroll_cont {
+        height: 234vh;
+      }
+
+  .first_cont p:nth-child(1) {
+    font-size: 22px;
+  }
+
+  .first_cont h2:nth-child(2) {
+    font-size: 2.5em;
+  }
+
+  .first_cont p:nth-child(3) {
+    font-size: 16px;
+  }
+
+  .first_cont p:nth-child(4) {
+    font-size: 16px;
+  }
+
+  .first_cont .first_cards {
+    grid-template-columns: 80%;
+  }
+
+  .first_cards .first_cont_cards {
+    width: 60vw;
+  }
+
+  .first_cards .first_cont_cards .cont_cards {
+    width: 50vw;
+  }
+
+  .first_scroll_cont .first_cont {
+    height: 126vh;
+  }
+
+  .first_cards .first_cont_cards .cont_cards p:nth-child(2) {
+    width: 50vw;
+  }
+
+  .first_cont .first_cards {
+    height: 40vh;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .first_scroll_cont .first_cont:nth-child(2) .front img {
+    height: 23vh;
+    width: 35vw;
+  }
 }
