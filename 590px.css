@@ -85,17 +85,33 @@
     height: 34vh;
   }
   .firstScroll {
-        height: 306vh;
-    }
+    height: 306vh;
+  }
   .first_scroll_cont .first_cont:nth-child(2) .back {
     height: 45vh;
     position: absolute;
     top: auto;
-        bottom: 0px;
+    bottom: 0px;
   }
 
-
   .first_scroll_cont .first_cont {
-    height: 110vh;
+    height: 125vh;
+  }
+
+  .first_cont p:nth-child(1) {
+    font-size: 18px;
+  }
+  .first_cont h2:nth-child(2) {
+    font-size: 2.5em;
+  }
+
+  .first_cont p:nth-child(3) {
+    font-size: 16px;
+  }
+  .first_cont p:nth-child(4) {
+    font-size: 16px;
+  }
+  .first_cont p:nth-child(6) {
+    font-size: 18px;
   }
 }

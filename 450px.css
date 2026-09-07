@@ -68,23 +68,31 @@
   }
 
   .first_scroll_cont {
-        height: 234vh;
-      }
-
-  .first_cont p:nth-child(1) {
-    font-size: 22px;
+    height: 234vh;
   }
-
   .first_cont h2:nth-child(2) {
     font-size: 2.5em;
   }
 
   .first_cont p:nth-child(3) {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .first_cont p:nth-child(4) {
+    font-size: 15px;
+  }
+
+  .first_cont p:nth-child(6) {
     font-size: 16px;
+  }
+
+  .first_cont p:nth-child(6)::before {
+    height: 80px;
+  }
+
+  .first_cont p:nth-child(7) {
+    line-height: 46px;
+    font-size: 15px;
   }
 
   .first_cont .first_cards {
@@ -100,7 +108,7 @@
   }
 
   .first_scroll_cont .first_cont {
-    height: 126vh;
+    height: 130586c78vh;
   }
 
   .first_cards .first_cont_cards .cont_cards p:nth-child(2) {
