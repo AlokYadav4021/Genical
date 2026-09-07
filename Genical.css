@@ -96,7 +96,7 @@ nav .callus i {
 }
 
 main {
-  height: 3000px;
+  height: 9000px;
   width: 100%;
 }
 
@@ -495,4 +495,142 @@ main {
   font-size: 18px;
   font-weight: 600;
   color: white;
+}
+
+.thirdScroll {
+  height: 180vh;
+  width: 98%;
+  background-color: white;
+  margin: 0 1% 0 1%;
+  border-radius: 20px;
+  position: relative;
+  bottom: 15vh;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.thirdScroll .thirdScroll_top {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 0 0 5vh 0;
+}
+
+.thirdScroll .thirdScroll_top p:first-child {
+  font-size: 33px;
+  font-family: serif;
+  color: #d9a441;
+}
+.thirdScroll .thirdScroll_top h3 {
+  font-size: 3em;
+  margin: 20px 0 20px 0;
+}
+.thirdScroll .thirdScroll_top p:last-child {
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.thirdScroll .third_Scroll_Cont {
+  height: 130vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3vw;
+  justify-content: center;
+  align-content: center;
+}
+.thirdScroll .third_Scroll_Cont .third_card {
+  height: 45vh;
+  width: 25vw;
+  display: flex;
+  border: 1px solid #d9a441 ;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all .3s linear;
+}
+
+.thirdScroll .third_Scroll_Cont .third_card:hover{
+  border: 1px solid black;
+
+}
+
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) {
+  border: 1px solid black ;
+
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+}
+
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) p:last-child{
+  color: #d9a441;
+
+}
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) p:last-child:hover{
+  color: black;
+
+}
+
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1):hover{
+  border: 1px solid #d9a441 ;
+  
+}
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(2) {
+  border-radius: 40px;
+}
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(3) {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(4) {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(5) {
+  border-radius: 40px;
+}
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(6) {
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.thirdScroll .third_Scroll_Cont .third_card img {
+  height: 60px;
+  width: 60px;
+   transition: all 0.2s linear;
+}
+
+.thirdScroll .third_Scroll_Cont .third_card img:hover {
+  transform: scale(1.2);
+}
+
+.thirdScroll .third_Scroll_Cont .third_card h3 {
+  font-size: 2em;
+}
+
+.thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+  font-size: 18px;
+  width: 20vw;
+  text-align: center;
+  font-weight: 600;
+  color: #909090;
+}
+.thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
+  font-size: 18px;
+  width: 20vw;
+  font-weight: 400;
+  transition: all .2s linear;
+}
+
+.thirdScroll .third_Scroll_Cont .third_card P:nth-child(4):hover{
+  color: #d9a441;
 }
