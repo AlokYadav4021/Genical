@@ -114,4 +114,8 @@
   .first_cont p:nth-child(6) {
     font-size: 18px;
   }
+
+  .secondScroll .numbCard {
+    width: 40vw;
+  }
 }

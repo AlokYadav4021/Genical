@@ -103,4 +103,16 @@
   .firstScroll {
     height: 291vh;
   }
+
+  .secondScroll {
+    height: 175vh;
+    background-size: 100% 175vh;
+  }
+
+  .secondScroll .number {
+    grid-template-columns: auto;
+  }
+  .secondScroll .numbCard {
+    width: 35vw;
+  }
 }

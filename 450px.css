@@ -125,4 +125,7 @@
     height: 23vh;
     width: 35vw;
   }
+  .secondScroll .numbCard {
+    width: 50vw;
+  }
 }

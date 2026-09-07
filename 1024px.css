@@ -55,4 +55,27 @@
     width: 29vw;
     bottom: 5vh;
   }
+
+  .secondScroll {
+    height: 130vh;
+    background-size: 100% 130vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+  }
+
+  .secondScroll .number {
+    height: 80vh;
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    justify-content: center;
+    top: 10vh;
+  }
+  .secondScroll .numbCard {
+    margin: 0;
+    width: 25vw;
+  }
 }
