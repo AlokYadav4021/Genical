@@ -505,7 +505,9 @@ main {
   border-radius: 20px;
   position: relative;
   bottom: 15vh;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .thirdScroll .thirdScroll_top {
@@ -546,40 +548,35 @@ main {
   height: 45vh;
   width: 25vw;
   display: flex;
-  border: 1px solid #d9a441 ;
+  border: 1px solid #d9a441;
 
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
-.thirdScroll .third_Scroll_Cont .third_card:hover{
+.thirdScroll .third_Scroll_Cont .third_card:hover {
   border: 1px solid black;
-
 }
 
 .thirdScroll .third_Scroll_Cont .third_card:nth-child(1) {
-  border: 1px solid black ;
+  border: 1px solid black;
 
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
-
 }
 
-.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) p:last-child{
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) p:last-child {
   color: #d9a441;
-
 }
-.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) p:last-child:hover{
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1) p:last-child:hover {
   color: black;
-
 }
 
-.thirdScroll .third_Scroll_Cont .third_card:nth-child(1):hover{
-  border: 1px solid #d9a441 ;
-  
+.thirdScroll .third_Scroll_Cont .third_card:nth-child(1):hover {
+  border: 1px solid #d9a441;
 }
 .thirdScroll .third_Scroll_Cont .third_card:nth-child(2) {
   border-radius: 40px;
@@ -606,7 +603,7 @@ main {
 .thirdScroll .third_Scroll_Cont .third_card img {
   height: 60px;
   width: 60px;
-   transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .thirdScroll .third_Scroll_Cont .third_card img:hover {
@@ -628,13 +625,167 @@ main {
   font-size: 18px;
   width: 20vw;
   font-weight: 400;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
-.thirdScroll .third_Scroll_Cont .third_card P:nth-child(4):hover{
+.thirdScroll .third_Scroll_Cont .third_card P:nth-child(4):hover {
   color: #d9a441;
 }
 
-.fourthScroll{
-  
+.fourthScroll {
+  height: 150vh;
+  width: 100%;
+  /* background-color: grey; */
+}
+
+.fourthScroll .top {
+  width: 100%;
+  height: 90vh;
+  /* background-color: black; */
+  display: flex;
+}
+
+.fourthScroll .top .fourthScrollleft {
+  height: 90vh;
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.fourthScroll .top .fourthScrollleft .image {
+  background-color: #2a4359;
+  height: 75vh;
+  width: 70%;
+  border-radius: 40px;
+  position: relative;
+  left: 4vw;
+}
+.fourthScroll .top .fourthScrollleft img {
+  height: 75vh;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: absolute;
+  bottom: 5vh;
+  right: 2vw;
+  border: 8px solid white;
+}
+
+.fourthScroll .top .fourthScrollleft img:nth-child(2) {
+  height: 25vh;
+  width: 20vw;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  top: 55vh;
+  left: 18vw;
+}
+
+.fourthScroll .top .fourthScrollright {
+  height: 90vh;
+  width: 55%;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fourthScroll .top .fourthScrollright p:nth-child(1) {
+  font-family: serif;
+  font-size: 22px;
+  color: #d9a441;
+
+}
+
+.fourthScroll .top .fourthScrollright h3:nth-child(2) {
+  font-size: 2.5em;
+  width: 60%;
+}
+
+.fourthScroll .top .fourthScrollright p:nth-child(3) {
+  font-family: serif;
+  font-size: 16px;
+  width: 70%;
+}
+
+.fourthScroll .top .fourthScrollright .fours_card {
+  height: 22vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourthScroll .top .fourthScrollright .fours_card .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fourthScroll .top .fourthScrollright .fours_card h5{
+  font-size: 1.5em;
+}
+.fourthScroll .top .fourthScrollright .fours_card .left li{
+  list-style-type: none;
+  margin: 5px 0px;
+}
+
+.fourthScroll .top .fourthScrollright .progress{
+  height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.fourthScroll .top .fourthScrollright .progress h5:nth-child(1){
+  font-size: 1.5em;
+}
+
+.fourthScroll .top .fourthScrollright .progress div{
+  height: 1.8vh;
+  width: 80%;
+  /* border: 1px solid #2a4359; */
+  background-color: #2a4359;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.fourthScroll .top .fourthScrollright .progress div:nth-child(2):after{
+  content: "";
+  height: 1.8vh;
+  width: 92%;
+  background-color: #d9a441;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: block;
+}
+.fourthScroll .top .fourthScrollright .progress h5:nth-child(3){
+  font-size: 1.5em;
+}
+.fourthScroll .top .fourthScrollright .progress div:nth-child(4):after{
+  content: "";
+  height: 1.8vh;
+  width: 98%;
+  background-color: #d9a441;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: block;
+}
+.fourthScroll .top .fourthScrollright .progress h5:nth-child(5){
+  font-size: 1.5em;
+}
+.fourthScroll .top .fourthScrollright .progress div:nth-child(6):after{
+  content: "";
+  height: 1.8vh;
+  width: 90%;
+  background-color: #d9a441;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: block;
 }

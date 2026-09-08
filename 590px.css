@@ -147,7 +147,7 @@
   }
 
   .thirdScroll .third_Scroll_Cont .third_card {
-    width: 41vw;
+    width: 40vw;
   }
 
       .thirdScroll .third_Scroll_Cont .third_card h3 {
@@ -160,5 +160,6 @@
   }
   .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
         font-size: 13px;
+        width: 30vw;
     }
 }
