@@ -1,0 +1,22 @@
+@media (max-width: 375px) {
+
+    
+  /* Third Scroll Responsive  */
+
+  .thirdScroll .thirdScroll_top p:first-child {
+    font-size: 20px;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card {
+    width: 70vw;
+  }
+
+  .thirdScroll .thirdScroll_top h3 {
+    font-size: 2em;
+  }
+
+  .thirdScroll .thirdScroll_top p:last-child {
+    font-size: 15px;
+    width: 80%;
+  }
+}

@@ -7,26 +7,48 @@
     font-size: 40px;
   }
 
-  nav .callus p{
+  nav .callus p {
     font-size: 14px;
   }
 
-  .hero > .hero_text{
+  .hero > .hero_text {
     height: 310px;
-}
+  }
   .hero > .hero_text > p:nth-child(3) {
     width: 75%;
   }
 
-  .hero_buttons p:nth-child(1){
-    font-size: 14px; 
-}
-  .hero_buttons p:nth-child(2){
-    font-size: 14px; 
-}
+  .hero_buttons p:nth-child(1) {
+    font-size: 14px;
+  }
+  .hero_buttons p:nth-child(2) {
+    font-size: 14px;
+  }
 
-.first_cont .first_cards {
+  .first_cont .first_cards {
     width: 80vw;
+  }
 
+  /* Third Scroll Responsive  */
+
+  .thirdScroll .third_Scroll_Cont .third_card {
+    height: 40vh;
+  }
+  
+  .thirdScroll .third_Scroll_Cont .third_card img {
+    height: 55px;
+    width: 55px;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card h3 {
+    font-size: 1.3em;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+    font-size: 15px;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
+    font-size: 15px;
   }
 }

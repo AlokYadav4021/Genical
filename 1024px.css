@@ -78,4 +78,23 @@
     margin: 0;
     width: 25vw;
   }
+
+  /* Third Scroll Responsive  */
+
+  .thirdScroll .third_Scroll_Cont .third_card img {
+    height: 55px;
+    width: 55px;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card h3 {
+    font-size: 1.4em;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+    font-size: 16px;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
+    font-size: 16px;
+  }
 }

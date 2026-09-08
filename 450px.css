@@ -128,4 +128,33 @@
   .secondScroll .numbCard {
     width: 50vw;
   }
+
+  /* Third Scroll Responsive  */
+
+  .thirdScroll {
+    height: 320vh;
+  }
+
+  .thirdScroll .third_Scroll_Cont {
+    grid-template-columns: auto;
+  }
+
+  .thirdScroll .third_Scroll_Cont {
+    height: 250vh;
+  }
+  .thirdScroll .third_Scroll_Cont .third_card {
+    width: 65vw;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card h3 {
+    font-size: 1.5em;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+    width: 50vw;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
+    width: 50vw;
+  }
 }

@@ -115,4 +115,39 @@
   .secondScroll .numbCard {
     width: 35vw;
   }
+
+  /* Third Scroll Responsive  */
+
+  .thirdScroll {
+    height: 200vh;
+    top: 1vh;
+  }
+
+  .thirdScroll .thirdScroll_top {
+    height: 60vh;
+  }
+
+  .thirdScroll .thirdScroll_top p:first-child {
+    font-size: 26px;
+  }
+
+  .thirdScroll .thirdScroll_top h3 {
+    font-size: 2.2em;
+  }
+
+  .thirdScroll .thirdScroll_top p:last-child {
+    font-size: 17px;
+  }
+
+  .thirdScroll .third_Scroll_Cont {
+    grid-template-columns: auto auto;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card {
+    width: 41vw;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+    width: 30vw;
+  }
 }

@@ -10,4 +10,17 @@
   .hero > .hero_text > h1:nth-child(2) {
     font-size: 4em;
   }
+
+  /* Third Scroll Responsive  */
+  .thirdScroll .third_Scroll_Cont .third_card h3 {
+    font-size: 1.5em;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+    font-size: 17px;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
+    font-size: 17px;
+  }
 }

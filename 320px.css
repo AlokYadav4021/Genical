@@ -34,20 +34,45 @@
   }
 
   .firstScroll {
-        height: 350vh;
-    }
+    height: 350vh;
+  }
 
-      .first_scroll_cont .first_cont {
-        height: 146vh;
-    }
+  .first_scroll_cont .first_cont {
+    height: 146vh;
+  }
 
-    .first_cont p:nth-child(6) {
-    font-size: 14px;}
+  .first_cont p:nth-child(6) {
+    font-size: 14px;
+  }
 
-    .first_cont p:nth-child(6)::before {
-    height: 75px;}
+  .first_cont p:nth-child(6)::before {
+    height: 75px;
+  }
 
-    .secondScroll .numbCard {
+  .secondScroll .numbCard {
     width: 60vw;
+  }
+
+  /* Third Scroll Responsive  */
+
+  .thirdScroll .thirdScroll_top h3 {
+    font-size: 1.8em;
+  }
+
+  .thirdScroll .thirdScroll_top p:last-child {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card {
+    width: 85vw;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(3) {
+    width: 70vw;
+  }
+
+  .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
+    width: 70vw;
   }
 }
