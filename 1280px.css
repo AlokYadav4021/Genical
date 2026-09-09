@@ -44,16 +44,32 @@
   .fourthScroll .top .fourthScrollright .fours_card .left li {
     font-size: 15px;
   }
-.fourthScroll .top .fourthScrollright .fours_card {
+  .fourthScroll .top .fourthScrollright .fours_card {
     width: 85%;
-}
+  }
   .fourthScroll .top .fourthScrollright .progress h5:nth-child(1) {
     font-size: 1.3em;
-}
+  }
   .fourthScroll .top .fourthScrollright .progress h5:nth-child(3) {
     font-size: 1.3em;
-}
+  }
   .fourthScroll .top .fourthScrollright .progress h5:nth-child(5) {
     font-size: 1.3em;
+  }
+
+  .fourthScroll .bottom .cards {
+    height: 50vh;
+  }
+  .fourthScroll .bottom .cards .cards_bottom img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .fourthScroll .bottom .cards .cards_top {
+    height: 40vh;
+  }
+
+  .fourthScroll .bottom .cards .cards_bottom p {
+    font-size: 15px;
 }
 }

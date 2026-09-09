@@ -165,6 +165,9 @@
 
   /* Fourth Scrooll will Start from here  */
 
+  .fourthScroll {
+    height: 375vh;
+  }
   .fourthScroll .top {
     height: 210vh;
   }
@@ -194,6 +197,16 @@
   }
 
   .fourthScroll .top .fourthScrollright .fours_card {
-        width: 100%;
-    }
+    width: 100%;
+  }
+
+  .fourthScroll .bottom {
+    height: 155vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourthScroll .bottom .cards {
+    width: 90%;
+  }
 }

@@ -55,7 +55,7 @@
   /* Fourth Scrooll will Start from here  */
 
   .fourthScroll {
-    height: 250vh;
+    height: 320vh;
   }
   .fourthScroll .top {
     flex-direction: column;
@@ -91,5 +91,20 @@
   .fourthScroll .top .fourthScrollright {
     height: 100vh;
     width: 80%;
+  }
+
+  .fourthScroll .bottom {
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 100vh;
+    gap: 3vw;
+  }
+
+  .fourthScroll .bottom .cards {
+    width: 45vw;
+  }
+  .fourthScroll .bottom .cards:nth-child(3) {
+    width: 93vw;
+    grid-column: span 2;
   }
 }
