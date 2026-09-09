@@ -23,4 +23,37 @@
   .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
     font-size: 17px;
   }
+
+  /* Fourth Scrooll will Start from here  */
+
+  .fourthScroll .top .fourthScrollright p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .fourthScroll .top .fourthScrollright h3:nth-child(2) {
+    font-size: 2.2em;
+  }
+
+  .fourthScroll .top .fourthScrollright p:nth-child(3) {
+    font-size: 15px;
+  }
+  .fourthScroll .top .fourthScrollright .fours_card h5 {
+    font-size: 1.4em;
+  }
+
+  .fourthScroll .top .fourthScrollright .fours_card .left li {
+    font-size: 15px;
+  }
+.fourthScroll .top .fourthScrollright .fours_card {
+    width: 85%;
+}
+  .fourthScroll .top .fourthScrollright .progress h5:nth-child(1) {
+    font-size: 1.3em;
+}
+  .fourthScroll .top .fourthScrollright .progress h5:nth-child(3) {
+    font-size: 1.3em;
+}
+  .fourthScroll .top .fourthScrollright .progress h5:nth-child(5) {
+    font-size: 1.3em;
+}
 }

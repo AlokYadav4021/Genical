@@ -157,4 +157,65 @@
   .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
     width: 50vw;
   }
+
+  /* Fourth Scrooll will Start from here  */
+
+  .fourthScroll .top {
+    height: 200vh;
+  }
+
+  .fourthScroll .top .fourthScrollleft {
+    height: 100vh;
+  }
+
+  .fourthScroll .top .fourthScrollleft .image {
+    height: 60vh;
+  }
+
+  .fourthScroll .top .fourthScrollleft img {
+    height: 60vh;
+    right: 3vw;
+    bottom: 4vh;
+  }
+
+  .fourthScroll .top .fourthScrollleft img:nth-child(2) {
+    height: 25vh;
+    width: 50vw;
+    top: 40vh;
+  }
+
+  .fourthScroll .top .fourthScrollright {
+    height: 150vh;
+  }
+
+  .fourthScroll .top .fourthScrollright h3:nth-child(2) {
+    width: 90%;
+  }
+
+  .fourthScroll .top .fourthScrollright .fours_card {
+    flex-direction: column;
+    height: 40vh;
+  }
+
+  .fourthScroll .top .fourthScrollright .fours_card h5 {
+    font-size: 1.3em;
+  }
+
+  .fourthScroll .top .fourthScrollright .fours_card .left li {
+    font-size: 14px;
+  }
+
+  .fourthScroll .top .fourthScrollright .fours_card {
+    width: 100%;
+  }
+
+  .fourthScroll .top .fourthScrollright .progress h5:nth-child(1) {
+        font-size: 1.1em;
+    }
+    .fourthScroll .top .fourthScrollright .progress h5:nth-child(3) {
+        font-size: 1.1em;
+    }
+    .fourthScroll .top .fourthScrollright .progress h5:nth-child(5) {
+        font-size: 1.1em;
+    }
 }

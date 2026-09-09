@@ -34,7 +34,7 @@
   .thirdScroll .third_Scroll_Cont .third_card {
     height: 40vh;
   }
-  
+
   .thirdScroll .third_Scroll_Cont .third_card img {
     height: 55px;
     width: 55px;
@@ -50,5 +50,46 @@
 
   .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
     font-size: 15px;
+  }
+
+  /* Fourth Scrooll will Start from here  */
+
+  .fourthScroll {
+    height: 250vh;
+  }
+  .fourthScroll .top {
+    flex-direction: column;
+    width: 100%;
+    height: 210vh;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .fourthScroll .top .fourthScrollleft {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .fourthScroll .top .fourthScrollleft .image {
+    height: 90vh;
+    width: 70%;
+    left: 0px;
+  }
+
+  .fourthScroll .top .fourthScrollleft img {
+    height: 90vh;
+  }
+
+  .fourthScroll .top .fourthScrollleft img:nth-child(2) {
+    height: 30vh;
+    width: 35vw;
+    top: 70vh;
+    left: 45vw;
+  }
+
+  .fourthScroll .top .fourthScrollright {
+    height: 100vh;
+    width: 80%;
   }
 }

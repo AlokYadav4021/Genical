@@ -19,4 +19,14 @@
     font-size: 15px;
     width: 80%;
   }
+
+  /* Fourth Scrooll will Start from here  */
+
+  .fourthScroll .top .fourthScrollright h3:nth-child(2) {
+        width: 100%;
+    }
+
+        .fourthScroll .top .fourthScrollright p:nth-child(3) {
+        width: 100%;
+    }
 }
