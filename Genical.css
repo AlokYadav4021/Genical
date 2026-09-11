@@ -916,3 +916,32 @@ main {
   color: white;
   margin: 20px 0 0 0;
 }
+
+.fifthScroll {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fifthScroll p:nth-child(1) {
+  font-size: 17px;
+}
+
+.fifthScroll h4:nth-child(2) {
+  font-size: 2.5em;
+}
+.fifthScroll .fifth_Card {
+  height: 35vh;
+  width: 80%;
+  display: flex;
+}
+
+.fifthScroll .fifth_Card .fifthCards {
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  
+}
