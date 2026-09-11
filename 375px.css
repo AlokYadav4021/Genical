@@ -1,6 +1,4 @@
 @media (max-width: 375px) {
-
-    
   /* Third Scroll Responsive  */
 
   .thirdScroll .thirdScroll_top p:first-child {
@@ -23,10 +21,19 @@
   /* Fourth Scrooll will Start from here  */
 
   .fourthScroll .top .fourthScrollright h3:nth-child(2) {
-        width: 100%;
-    }
+    width: 100%;
+  }
 
-        .fourthScroll .top .fourthScrollright p:nth-child(3) {
-        width: 100%;
-    }
+  .fourthScroll .top .fourthScrollright p:nth-child(3) {
+    width: 100%;
+  }
+
+  .after_fourthScroll h4 {
+    width: 90%;
+  }
+
+  .after_fourthScroll p {
+    width: 75%;
+    text-align: justify;
+  }
 }

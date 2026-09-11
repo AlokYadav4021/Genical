@@ -222,4 +222,9 @@
     .fourthScroll .top .fourthScrollright .progress h5:nth-child(5) {
         font-size: 1.1em;
     }
+
+    .after_fourthScroll p:nth-child(3) {
+        width: 40%;
+        font-size: 14px;
+    }
 }

@@ -107,4 +107,8 @@
     width: 93vw;
     grid-column: span 2;
   }
+
+  .after_fourthScroll {
+    margin: 10vh 0 0 0;
+}
 }

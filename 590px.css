@@ -209,4 +209,13 @@
   .fourthScroll .bottom .cards {
     width: 90%;
   }
+
+  .after_fourthScroll h4 {
+    font-size: 1.8em;
+    width: 70%;
+  }
+
+  .after_fourthScroll p {
+    width: 50%;
+  }
 }

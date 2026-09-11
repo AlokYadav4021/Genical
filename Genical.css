@@ -637,8 +637,8 @@ main {
   width: 100%;
   /* background-color: grey; */
   display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .fourthScroll .top {
@@ -792,7 +792,7 @@ main {
 
 .fourthScroll .bottom {
   width: 100%;
-     height: 45vh;
+  height: 45vh;
   /* background-color: black; */
   display: grid;
   grid-template-columns: auto auto auto;
@@ -816,7 +816,7 @@ main {
   width: 100%;
   background-color: #2a4359;
   display: flex;
-justify-content: center;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -843,7 +843,6 @@ justify-content: center;
 .fourthScroll .bottom .cards .cards_top p {
   width: 70%;
   color: white;
-  
 }
 
 .fourthScroll .bottom .cards .cards_bottom {
@@ -867,4 +866,53 @@ justify-content: center;
 
 .fourthScroll .bottom .cards .cards_bottom p {
   color: #d9a441;
+}
+
+.after_fourthScroll {
+  height: 60vh;
+  width: 100%;
+  background-image:
+    linear-gradient(to bottom, #43728fa9, #43728fa9),
+    url(./Why-Choose-Us-Image-2-1536x1024.jpg);
+  background-size: 100% 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0 0 0;
+}
+
+.after_fourthScroll h4 {
+  font-size: 2.5em;
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+.after_fourthScroll h4 span {
+  color: #d9a441;
+}
+
+.after_fourthScroll p {
+  width: 40%;
+  font-size: 13px;
+  color: white;
+  padding: 10px 0 0 0;
+}
+
+.after_fourthScroll p:nth-child(3) {
+  width: 20%;
+  height: 45px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #d9a441;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #d9a441;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  margin: 20px 0 0 0;
 }

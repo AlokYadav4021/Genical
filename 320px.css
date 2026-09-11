@@ -75,4 +75,9 @@
   .thirdScroll .third_Scroll_Cont .third_card P:nth-child(4) {
     width: 70vw;
   }
+
+  .after_fourthScroll p:nth-child(3) {
+    width: 50%;
+    font-size: 13px;
+  }
 }

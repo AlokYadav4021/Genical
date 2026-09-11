@@ -172,4 +172,14 @@
   .fourthScroll .top .fourthScrollright .fours_card {
     width: 90%;
   }
+
+  
+  .after_fourthScroll h4 {
+    font-size: 2em;
+  }
+
+  .after_fourthScroll p:nth-child(3) {
+    width: 30%;
+    font-size: 16px;
+}
 }
