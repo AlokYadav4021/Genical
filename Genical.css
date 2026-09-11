@@ -915,33 +915,72 @@ main {
   font-weight: 400;
   color: white;
   margin: 20px 0 0 0;
+  transition: all .2s linear;
 }
 
+.after_fourthScroll p:nth-child(3):hover{
+  background-color: transparent;
+}
 .fifthScroll {
-  height: 80vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .fifthScroll p:nth-child(1) {
-  font-size: 17px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: serif;
+  color: #d9a441;
+
 }
 
 .fifthScroll h4:nth-child(2) {
-  font-size: 2.5em;
+  font-size: 3em;
+}
+
+.fifthScroll p:nth-child(3) {
+  width: 60%;
+  color: #909090;
+  font-size: 19px;
+  text-align: center;
 }
 .fifthScroll .fifth_Card {
-  height: 35vh;
-  width: 80%;
+  height: 32vh;
+  width: 100%;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .fifthScroll .fifth_Card .fifthCards {
-  height: 33vh;
+  height: 32vh;
+  width: 23%;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
-  
+  /* border: 1px solid black; */
+}
+
+.fifthScroll .fifth_Card .fifthCards i {
+  font-size: 2em;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  border: 1px solid #d9a441;
+  border-radius: 10px;
+  color: #d9a441;
+}
+
+.fifthScroll .fifth_Card .fifthCards p {
+  width: 100%;
+  font-size: 17px;
+}
+
+.fifthScroll .fifth_Card .fifthCards h5{
+  font-size: 1.7em;
+  font-weight: 700;
 }
