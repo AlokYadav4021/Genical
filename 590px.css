@@ -218,4 +218,19 @@
   .after_fourthScroll p {
     width: 50%;
   }
+
+  /* Fifth Scroll */
+
+  .fifthScroll p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .fifthScroll h4:nth-child(2) {
+    font-size: 1.7em;
+    width: 70%;
+  }
+
+  .fifthScroll p:nth-child(3) {
+    font-size: 15px;
+  }
 }

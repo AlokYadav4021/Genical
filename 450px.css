@@ -161,8 +161,8 @@
   /* Fourth Scrooll will Start from here  */
 
   .fourthScroll {
-        height: 365vh;
-    }
+    height: 365vh;
+  }
 
   .fourthScroll .top {
     height: 200vh;
@@ -214,17 +214,43 @@
   }
 
   .fourthScroll .top .fourthScrollright .progress h5:nth-child(1) {
-        font-size: 1.1em;
-    }
-    .fourthScroll .top .fourthScrollright .progress h5:nth-child(3) {
-        font-size: 1.1em;
-    }
-    .fourthScroll .top .fourthScrollright .progress h5:nth-child(5) {
-        font-size: 1.1em;
-    }
+    font-size: 1.1em;
+  }
+  .fourthScroll .top .fourthScrollright .progress h5:nth-child(3) {
+    font-size: 1.1em;
+  }
+  .fourthScroll .top .fourthScrollright .progress h5:nth-child(5) {
+    font-size: 1.1em;
+  }
 
-    .after_fourthScroll p:nth-child(3) {
-        width: 40%;
-        font-size: 14px;
-    }
+  .after_fourthScroll p:nth-child(3) {
+    width: 40%;
+    font-size: 14px;
+  }
+
+  /* Fifth Scroll */
+
+  .fifthScroll p:nth-child(1) {
+    font-size: 17px;
+  }
+
+  .fifthScroll h4:nth-child(2) {
+    font-size: 1.6em;
+    width: 80%;
+  }
+
+  .fifthScroll p:nth-child(3) {
+    width: 80%;
+  }
+
+  .fifthScroll .fifth_Card {
+    width: 60%;
+  }
+
+  .fifthScroll .fifth_Card .fifthCards i {
+    font-size: 1.9em;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+  }
 }

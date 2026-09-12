@@ -80,4 +80,18 @@
     width: 50%;
     font-size: 13px;
   }
+
+  /* Fifth Scroll */
+
+  .fifthScroll h4:nth-child(2) {
+    font-size: 1.5em;
+  }
+
+  .fifthScroll p:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .fifthScroll .fifth_Card {
+    width: 80%;
+  }
 }

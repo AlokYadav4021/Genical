@@ -173,7 +173,6 @@
     width: 90%;
   }
 
-  
   .after_fourthScroll h4 {
     font-size: 2em;
   }
@@ -181,5 +180,21 @@
   .after_fourthScroll p:nth-child(3) {
     width: 30%;
     font-size: 16px;
-}
+  }
+
+  /* Fifth Scroll */
+
+  .fifthScroll {
+    height: 180vh;
+  }
+
+  .fifthScroll h4:nth-child(2) {
+    font-size: 2em;
+    width: 60%;
+    text-align: center;
+  }
+
+  .fifthScroll p:nth-child(3) {
+    width: 70%;
+  }
 }

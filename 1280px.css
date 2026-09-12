@@ -72,4 +72,18 @@
   .fourthScroll .bottom .cards .cards_bottom p {
     font-size: 15px;
 }
+
+.fifthScroll .fifth_Card .fifthCards i {
+    font-size: 1.9em;
+    height: 80px;
+    width: 80px;
+}
+
+.fifthScroll .fifth_Card .fifthCards h5 {
+    font-size: 1.3em;
+}
+
+.fifthScroll .fifth_Card .fifthCards p {
+    font-size: 16px;
+}
 }

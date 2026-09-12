@@ -36,4 +36,15 @@
     width: 75%;
     text-align: justify;
   }
+
+  /* fifth Scroll */
+
+  .fifthScroll h4:nth-child(2) {
+    font-size: 1.6em;
+    width: 90%;
+  }
+
+  .fifthScroll .fifth_Card {
+    width: 70%;
+  }
 }
