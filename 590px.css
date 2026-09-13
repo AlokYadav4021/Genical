@@ -233,4 +233,51 @@
   .fifthScroll p:nth-child(3) {
     font-size: 15px;
   }
+
+  .fifthForm .fifth_form_Center .fifthLeft {
+    align-items: center;
+  }
+  .fifthForm .fifth_form_Center .fifthLeft .Service_date {
+    height: 25vh;
+    width: 90%;
+  }
+  .fifthForm .fifth_form_Center .fifthLeft p:last-child {
+    width: 80%;
+  }
+
+  .fifthLeft .Service_date .sections input,
+  select {
+    font-size: 1em;
+  }
+
+  .fifth_form_Center .fifthRight p:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .fifth_form_Center .fifthRight > h5:nth-child(2) {
+    font-size: 2em;
+  }
+
+  .fifth_form_Center .fifthRight p:nth-child(3) {
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .fifth_form_Center .fifthRight > .fifth_bootom_right > .data_fifth i {
+    font-size: 2.5em;
+  }
+
+  .fifth_form_Center .fifthRight > .fifth_bootom_right > .data_fifth {
+    width: 70%;
+  }
+
+  .fifth_form_Center
+    .fifthRight
+    > .fifth_bootom_right
+    > .data_fifth
+    .int_right
+    h5 {
+    font-size: 1.2em;
+  }
 }

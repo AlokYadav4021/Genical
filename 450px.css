@@ -253,4 +253,8 @@
     width: 70px;
     line-height: 70px;
   }
+
+  .fifth_form_Center .fifthRight > .fifth_bootom_right > .data_fifth {
+    width: 85%;
+  }
 }

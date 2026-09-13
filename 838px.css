@@ -197,4 +197,23 @@
   .fifthScroll p:nth-child(3) {
     width: 70%;
   }
+
+  .fifthScrollmain .fifthForm .fifth_form_Center {
+    height: 165vh;
+  }
+  fifthForm .fifth_form_Center .fifthLeft {
+    align-items: center;
+  }
+  .fifthForm .fifth_form_Center .fifthLeft label {
+    font-size: 1.2em;
+  }
+
+  .fifthForm .fifth_form_Center .fifthLeft > input {
+    font-size: 1.3em;
+  }
+
+  .Service_date .sections input,
+  select {
+    font-size: 1.3em;
+  }
 }

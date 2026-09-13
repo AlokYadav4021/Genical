@@ -133,6 +133,9 @@
 
   /* Fifth Scroll Section */
 
+  .fifthScrollmain {
+    height: 250vh;
+  }
   .fifthScroll h4:nth-child(2) {
     font-size: 2.5em;
   }
@@ -142,6 +145,42 @@
   }
 
   .fifthScroll .fifth_Card .fifthCards h5 {
-        font-size: 1.2em;
-    }
+    font-size: 1.2em;
+  }
+
+  .fifthScrollmain .fifthForm {
+    height: 175vh;
+  }
+
+  .fifthScrollmain .fifthForm .fifth_form_Center {
+    flex-direction: column;
+    height: 150vh;
+  }
+  .fifthForm .fifth_form_Center .fifthLeft {
+    order: 1;
+    width: 100%;
+    height: 50%;
+  }
+
+  .fifthForm .fifth_form_Center .fifthLeft > input {
+    height: 8vh;
+    width: 70%;
+  }
+  .fifthForm .fifth_form_Center .fifthLeft .Service_date {
+    height: 25vh;
+    width: 70%;
+  }
+  
+
+  .fifthForm .fifth_form_Center .fifthRight {
+    order: -1;
+    order: -1;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+  }
+
+  .fifth_form_Center .fifthRight > .fifth_bootom_right {
+    align-items: center;
+  }
 }

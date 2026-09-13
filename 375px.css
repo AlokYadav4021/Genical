@@ -47,4 +47,57 @@
   .fifthScroll .fifth_Card {
     width: 70%;
   }
+
+  .fifthForm .fifth_form_Center .fifthLeft label {
+    font-size: 1.1em;
+  }
+
+  .fifthForm .fifth_form_Center .fifthLeft > input {
+    height: 6vh;
+    font-size: 1.2em;
+  }
+
+  .fifthLeft .Service_date .sections input,
+  select {
+    height: 5vh;
+  }
+
+  .fifthLeft .Service_date .sections input,
+  select {
+    font-size: 15px;
+  }
+
+  
+  .fifth_form_Center .fifthRight p:nth-child(1) {
+    font-size: 18px;
+  }
+  .fifth_form_Center .fifthRight > h5:nth-child(2) {
+    font-size: 1.5em;
+  }
+
+  .fifth_form_Center .fifthRight p:nth-child(3) {
+    font-size: 15px;
+    width: 95%;
+  }
+  .fifth_form_Center .fifthRight > .fifth_bootom_right > .data_fifth {
+    width: 90%;
+  }
+
+  .fifth_form_Center
+    .fifthRight
+    > .fifth_bootom_right
+    > .data_fifth
+    .int_right
+    h5 {
+    font-size: 1.1em;
+  }
+
+  .fifth_form_Center
+    .fifthRight
+    > .fifth_bootom_right
+    > .data_fifth
+    .int_right
+    p {
+    font-size: 15px;
+  }
 }

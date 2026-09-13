@@ -83,10 +83,6 @@
 
   /* Fifth Scroll */
 
-  .fifthScrollmain {
-    height: 180vh;
-  }
-
   .fifthScroll h4:nth-child(2) {
     font-size: 1.5em;
   }
@@ -98,4 +94,8 @@
   .fifthScroll .fifth_Card {
     width: 80%;
   }
+
+      .fifthLeft .Service_date .sections input, select {
+        padding: 0;
+    }
 }
