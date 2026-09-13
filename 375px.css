@@ -67,7 +67,6 @@
     font-size: 15px;
   }
 
-  
   .fifth_form_Center .fifthRight p:nth-child(1) {
     font-size: 18px;
   }
@@ -99,5 +98,33 @@
     .int_right
     p {
     font-size: 15px;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left {
+    height: 20%;
+    width: 90%;
+  }
+  .fifth_after .fifth_after_cont .fifth_after_right {
+    grid-template-columns: auto;
+  }
+
+  .fifth_after {
+    height: 200vh;
+  }
+
+  .fifth_after .fifth_after_cont {
+    height: 170vh;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left p:first-child {
+    font-size: 14px;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left p:last-child {
+    width: 100%;
+    font-size: 14px;
+  }
+  .fifth_after .fifth_after_cont .fifth_after_left h5 {
+    font-size: 1.5em;
   }
 }

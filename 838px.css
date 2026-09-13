@@ -216,4 +216,16 @@
   select {
     font-size: 1.3em;
   }
+
+  .fifth_after .fifth_after_cont .fifth_after_left p:first-child {
+    font-size: 18px;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left h5 {
+    font-size: 2.5em;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left p:last-child {
+    width: 100%;
+  }
 }

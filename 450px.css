@@ -257,4 +257,20 @@
   .fifth_form_Center .fifthRight > .fifth_bootom_right > .data_fifth {
     width: 85%;
   }
+
+  .fifth_after .fifth_after_cont {
+    height: 120vh;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left p:first-child {
+        font-size: 16px;
+    }
+
+  .fifth_after .fifth_after_cont .fifth_after_left h5 {
+    font-size: 2em;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_left p:last-child {
+    font-size: 16px;
+}
 }

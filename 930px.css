@@ -118,7 +118,7 @@
     height: 335vh;
   }
 
-  
+
   .fifthScroll {
     height: 175vh;
   }
@@ -136,4 +136,10 @@
     height: 35vh;
     width: 100%;
   }
+
+  .fifth_after .fifth_after_cont .fifth_after_right {
+    width: 90%;
+    justify-content: center;
+    gap: 5vw;
+}
 }

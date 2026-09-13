@@ -280,4 +280,17 @@
     h5 {
     font-size: 1.2em;
   }
+
+  .fifth_after {
+    height: 150vh;
+  }
+
+  .fifth_after .fifth_after_cont {
+    height: 110vh;
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_right {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
 }

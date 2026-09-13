@@ -71,19 +71,27 @@
 
   .fourthScroll .bottom .cards .cards_bottom p {
     font-size: 15px;
-}
+  }
 
-.fifthScroll .fifth_Card .fifthCards i {
+  .fifthScroll .fifth_Card .fifthCards i {
     font-size: 1.9em;
     height: 80px;
     width: 80px;
-}
+  }
 
-.fifthScroll .fifth_Card .fifthCards h5 {
+  .fifthScroll .fifth_Card .fifthCards h5 {
     font-size: 1.3em;
-}
+  }
 
-.fifthScroll .fifth_Card .fifthCards p {
+  .fifthScroll .fifth_Card .fifthCards p {
     font-size: 16px;
-}
+  }
+
+  .fifth_after .fifth_after_cont .fifth_after_right img {
+    width: 175px;
+  }
+
+  /* Fifth Scroll After */
+
+  
 }
