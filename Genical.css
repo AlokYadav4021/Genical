@@ -1066,6 +1066,7 @@ main {
 
 .fifthForm .fifth_form_Center .fifthLeft p:last-child:hover {
   background-color: transparent;
+  color: black;
 }
 
 .fifthForm .fifth_form_Center .fifthLeft .Service_date {
@@ -1337,4 +1338,116 @@ select {
 footer{
   height: 100vh;
   width: 100%;
+  background-color: #2a4359;
+}
+
+footer .foot_top{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+footer .foot_top li{
+  list-style: none;
+  margin: 20px 0 20px 0;
+    font-size: 16px;
+}
+
+footer .foot_top h5{
+  font-size: 1.5em;
+  margin: 0 0 20px 0;
+}
+
+footer .foot_top li i{
+  font-size: 13px;
+  color: #d9a441;
+  margin: 0 5px 0 0;
+}
+
+footer .foot_top .foot_box:nth-child(1){
+  height: 60vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  padding: 0 0 0 10px;
+}
+
+footer .foot_top .foot_box:nth-child(1) img{
+  height: 20vh;
+  width: 80%;
+  object-fit: contain;
+}
+
+footer .foot_top .foot_box:nth-child(1) p{
+  width: 95%;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+footer .foot_top .foot_box:nth-child(1) .logo{
+  width: 60%;
+  margin: 30px 0 0 0;
+}
+
+footer .foot_top .foot_box:nth-child(1) .logo i{
+  height: 35px;
+  width: 35px;
+  background-color: #d9a441;
+  color: white;
+  line-height: 35px;
+  font-size: 1em;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+
+footer .foot_top .foot_box:nth-child(2){
+  height: 60vh;
+  padding: 0 0 0 10px;
+
+}
+
+
+footer .foot_top .foot_box:nth-child(3){
+  height: 60vh;
+  width: 20%;
+  padding: 0 0 0 10px;
+
+}
+footer .foot_top .foot_box:nth-child(4){
+  height: 60vh;
+  width: 25%;
+  padding: 0 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+footer .foot_top .foot_box:nth-child(4) p{
+  font-size: 19px;
+  line-height: 33px;
+  width: 90%;
+}
+
+footer .foot_top .foot_box:nth-child(4) p i{
+  color: #d9a441;
+}
+
+
+footer .foot_top .foot_box:nth-child(4) .foot_box_top:first-child{
+  margin: 0 0 20px 0;
+}
+
+footer .copyright{
+  border-top: 1px solid #c99a3b;
+  height: 10vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
