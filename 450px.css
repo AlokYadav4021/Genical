@@ -263,8 +263,8 @@
   }
 
   .fifth_after .fifth_after_cont .fifth_after_left p:first-child {
-        font-size: 16px;
-    }
+    font-size: 16px;
+  }
 
   .fifth_after .fifth_after_cont .fifth_after_left h5 {
     font-size: 2em;
@@ -272,5 +272,19 @@
 
   .fifth_after .fifth_after_cont .fifth_after_left p:last-child {
     font-size: 16px;
-}
+  }
+
+  /* Sixth Scroll */
+
+  .sixthScroll .sixthScroll_top p:first-child {
+    font-size: 17px;
+  }
+
+  .sixthScroll .sixthScroll_top h5 {
+    font-size: 2em;
+  }
+
+  .sixthScroll .sixthScroll_top p:last-child {
+    font-size: 16px;
+  }
 }

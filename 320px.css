@@ -95,7 +95,38 @@
     width: 80%;
   }
 
-      .fifthLeft .Service_date .sections input, select {
-        padding: 0;
-    }
+  .fifthLeft .Service_date .sections input,
+  select {
+    padding: 0;
+  }
+
+  /* Sixth Scroll */
+
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .sixthScroll_bottom .cards .cards_cont h6:first-child {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(3) {
+    font-size: 14px;
+  }
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(4) {
+    font-size: 14px;
+  }
+
+  .sixthScroll .sixthScroll_bottom .cards {
+    width: 90%;
+  }
+
+  .sixthScroll .sixthScroll_bottom .cards {
+    height: 85vh;
+  }
+
+  .sixthScroll_bottom .cards .cards_cont {
+    height: 45vh;
+  }
 }

@@ -228,4 +228,18 @@
   .fifth_after .fifth_after_cont .fifth_after_left p:last-child {
     width: 100%;
   }
+
+  /* Sixth Scroll */
+
+  .sixthScroll .sixthScroll_top p:first-child {
+    font-size: 18px;
+  }
+
+  .sixthScroll .sixthScroll_top p:last-child {
+    width: 70%;
+  }
+
+      .sixthScroll .sixthScroll_bottom .cards {
+        width: 60%;
+    }
 }

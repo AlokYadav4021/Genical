@@ -91,7 +91,20 @@
     width: 175px;
   }
 
-  /* Fifth Scroll After */
+  /* Sixth Scroll */
 
-  
+  .sixthScroll_bottom .cards .cards_cont h6:first-child {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(2) {
+    font-size: 18px;
+  }
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(3) {
+    font-size: 18px;
+  }
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(4) {
+    font-size: 16px;
+  }
 }

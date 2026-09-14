@@ -293,4 +293,33 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
   }
+
+  /* sixth Scroll */
+
+  .sixthScroll .sixthScroll_top h5 {
+    font-size: 2.5em;
+  }
+
+  .sixthScroll .sixthScroll_top p:last-child {
+    width: 80%;
+  }
+
+  .sixthScroll .sixthScroll_bottom .cards {
+    width: 80%;
+  }
+
+  .sixthScroll_bottom .cards .cards_cont h6:first-child {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(2) {
+    font-size: 16px;
+  }
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(3) {
+    font-size: 16px;
+  }
+  .sixthScroll_bottom .cards .cards_cont p:nth-child(4) {
+    font-size: 16px;
+  }
 }
