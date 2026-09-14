@@ -96,7 +96,7 @@ nav .callus i {
 }
 
 main {
-  height: 9000px;
+  height: auto;
   width: 100%;
 }
 
@@ -1332,4 +1332,9 @@ select {
 }
 .sixthScroll_bottom .cards .cards_cont p:nth-child(4):hover{
   color: white;
+}
+
+footer{
+  height: 100vh;
+  width: 100%;
 }
