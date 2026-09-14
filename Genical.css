@@ -1221,3 +1221,115 @@ select {
   transition: all 0.2s linear;
 }
 
+.sixthScroll {
+  height: 160vh;
+  width: 100%;
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sixthScroll .sixthScroll_top {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.sixthScroll .sixthScroll_top p:first-child {
+  font-size: 25px;
+  color: #d9a441;
+  font-style: italic;
+
+}
+
+.sixthScroll .sixthScroll_top p:last-child {
+  width: 55%;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 10vh 0;
+  color: #a18585;
+}
+
+.sixthScroll .sixthScroll_top h5 {
+  font-size: 3em;
+  margin: 20px 0 20px 0;
+}
+
+.sixthScroll .sixthScroll_bottom {
+  height: 110vh;
+  width: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+    padding: 0 5px 0 5px ;
+}
+
+.sixthScroll .sixthScroll_bottom .cards {
+  height: 90vh;
+  width: 32%;
+  background-color: #2a4359;
+  color: white;
+  border-radius: 40px;
+}
+
+.sixthScroll .sixthScroll_bottom .cards .img_top {
+  height: 40vh;
+  width: 100%;
+    border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  overflow: hidden;
+}
+.sixthScroll .sixthScroll_bottom .cards img {
+  height: 40vh;
+  width: 100%;
+  transition: all 0.4s linear;
+}
+
+.sixthScroll .sixthScroll_bottom .cards img:hover {
+  transform: scale(1.1);
+}
+
+.sixthScroll_bottom .cards .cards_cont{
+  height: 50vh;
+  width: 100%;
+  padding: 0 0 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.sixthScroll_bottom .cards .cards_cont h6:first-child{
+  font-size: 1.3em;
+  width: 90%;
+}
+
+.sixthScroll_bottom .cards .cards_cont p:nth-child(2){
+  font-size: 20px;
+  width: 90%;
+  font-weight: 600;
+}
+
+
+.sixthScroll_bottom .cards .cards_cont p:nth-child(2) > i{
+  color: #d9a441;
+
+}
+
+.sixthScroll_bottom .cards .cards_cont p:nth-child(3){
+  width: 95%;
+  font-size: 20px;
+}
+
+.sixthScroll_bottom .cards .cards_cont p:nth-child(4){
+  color: #d9a441;
+  font-weight: 600;
+  transition: all .3s linear;
+}
+.sixthScroll_bottom .cards .cards_cont p:nth-child(4):hover{
+  color: white;
+}
