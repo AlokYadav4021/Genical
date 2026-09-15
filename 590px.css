@@ -322,4 +322,14 @@
   .sixthScroll_bottom .cards .cards_cont p:nth-child(4) {
     font-size: 16px;
   }
+
+  /* Footer Section */
+
+  footer .foot_top {
+    height: 245vh;
+  }
+  footer .copyright {
+    height: 5vh;
+    font-size: 10px;
+  }
 }

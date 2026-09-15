@@ -118,7 +118,6 @@
     height: 335vh;
   }
 
-
   .fifthScroll {
     height: 175vh;
   }
@@ -141,5 +140,16 @@
     width: 90%;
     justify-content: center;
     gap: 5vw;
-}
+  }
+
+  /* Footer Section */
+
+  footer {
+    height: 145vh;
+  }
+
+  footer .foot_top {
+    height: 135vh;
+  }
+  
 }

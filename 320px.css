@@ -129,4 +129,18 @@
   .sixthScroll_bottom .cards .cards_cont {
     height: 45vh;
   }
+
+  /* Footer Section */
+
+  footer{
+        height: 240vh;
+
+  }
+      footer .foot_top {
+        height: 235vh;
+    }
+
+        footer .foot_top .foot_box:nth-child(4) p {
+        font-size: 15px;
+    }
 }

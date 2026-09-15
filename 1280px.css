@@ -107,4 +107,41 @@
   .sixthScroll_bottom .cards .cards_cont p:nth-child(4) {
     font-size: 16px;
   }
+
+  /* Footer Section */
+
+  footer {
+    height: 135vh;
+  }
+  footer .foot_top {
+    height: 125vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 10%;
+    padding: 20px 0 0 0;
+  }
+
+  footer .foot_top .foot_box:nth-child(1) {
+    width: 100%;
+    padding: 0 0 0 50px;
+  }
+
+  footer .foot_top .foot_box:nth-child(1) .logo {
+    width: 90%;
+  }
+
+
+  footer .foot_top .foot_box:nth-child(2) {
+    width: 100%;
+    padding: 0 0 0 50px;
+  }
+  footer .foot_top .foot_box:nth-child(3) {
+    width: 100%;
+    padding: 0 0 0 50px;
+  }
+  footer .foot_top .foot_box:nth-child(4) {
+    width: 100%;
+    padding: 0 0 0 50px;
+  }
 }

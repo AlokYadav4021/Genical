@@ -287,4 +287,25 @@
   .sixthScroll .sixthScroll_top p:last-child {
     font-size: 16px;
   }
+
+  /* Footer Section */
+ footer .foot_top h5 {
+    font-size: 1.3em;
+  }
+  
+      footer .foot_top .foot_box:nth-child(1) {
+        height: 50vh;
+    }
+        footer .foot_top .foot_box:nth-child(2) {
+        height: 50vh;
+    }
+        footer .foot_top .foot_box:nth-child(3) {
+        height: 50vh;
+    }
+        footer .foot_top .foot_box:nth-child(4) {
+        height: 50vh;
+    }
+  footer .foot_top .foot_box:nth-child(4) p {
+    font-size: 17px;
+  }
 }
